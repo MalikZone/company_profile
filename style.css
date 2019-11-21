@@ -6,6 +6,7 @@ body{
   background-color: #E6E6FA;
 }
 
+/* header */
 .container{
   width: 80%;
   margin: auto;
@@ -36,7 +37,7 @@ header nav{
 header li {
   float: left;
   display: inline;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
 }
 
 header a{
@@ -48,4 +49,100 @@ header a{
 ul{
   margin: 0px;
   padding: 0px;
+}
+
+header a:hover{
+  color: yellow;
+  font-weight: bold;
+}
+/* header */
+
+
+/* showcase */
+#showcase{
+  min-height: 400px;
+  background: url(img/nn.jpg) 0px -10px;
+  text-align: center;
+  color: yellow;
+}
+
+#showcase h1{
+  margin-top: 20px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  text-shadow: 5px 5px 10px black;
+}
+
+#showcase p{
+  color: yellow;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+/* showcase */
+
+/* letter */
+#letter{
+  padding: 15px;
+  color: yellow;
+  background-color: black;
+}
+
+#letter h1{
+  float: left;
+}
+
+#letter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#letter input[type="email"]{
+  padding: 10px;
+  height: 5px;
+  width: 250px;
+}
+
+.buttonsubs{
+  height: 30px;
+  background-color: yellow;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* letter */
+
+/* case */
+#case{
+  background: #F0FFFF;
+}
+
+#case .container h1{
+  color: black;
+  text-align: center;
+}
+
+#case .container h4{
+  color: black;
+  text-align: center;
+}
+
+#case .container h5{
+  color: black;
+  text-align: center;
+}
+
+#case .text{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 17px;
+}
+/* case */
+
+footer{
+  padding: 20px;
+  text-align: center;
+  color: yellow;
+  background: black;
 }
